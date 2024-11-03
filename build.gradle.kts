@@ -22,6 +22,10 @@ repositories {
 
 dependencies {
     implementation(libs.bundles.spring)
+
+    testImplementation(libs.junit.jupiter)
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    testImplementation(libs.spring.boot.test)
 }
 
 kotlin {
