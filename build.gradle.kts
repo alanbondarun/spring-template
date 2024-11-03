@@ -21,6 +21,7 @@ repositories {
 }
 
 dependencies {
+    implementation(libs.postgresql)
     implementation(libs.bundles.spring)
 
     testImplementation(libs.junit.jupiter)
