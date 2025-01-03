@@ -23,6 +23,7 @@ repositories {
 dependencies {
     implementation(libs.postgresql)
     implementation(libs.bundles.spring)
+    runtimeOnly(libs.kotlin.reflect)
 
     testImplementation(libs.junit.jupiter)
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
